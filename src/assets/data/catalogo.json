@@ -1,0 +1,10 @@
+{
+    "data": [
+        { "id": "bicicleta 1", "precio": 30, "tipo": "Eléctrica", "categoria": "Premium", "src": "https://electrojaponesa.vteximg.com.br/arquivos/ids/176177-550-550/K44--1-.jpg?v=637098555369900000" },
+        { "id": "bicicleta 2", "precio": 10, "tipo": "Normal", "categoria": "Basic", "src": "https://electrojaponesa.vteximg.com.br/arquivos/ids/176177-550-550/K44--1-.jpg?v=637098555369900000" },
+        { "id": "bicicleta 3", "precio": 30, "tipo": "Antigua", "categoria": "Premium", "src": "https://electrojaponesa.vteximg.com.br/arquivos/ids/176177-550-550/K44--1-.jpg?v=637098555369900000" },
+        { "id": "bicicleta 4", "precio": 10, "tipo": "Eléctrica", "categoria": "Basic", "src": "https://electrojaponesa.vteximg.com.br/arquivos/ids/176177-550-550/K44--1-.jpg?v=637098555369900000" },
+        { "id": "bicicleta 5", "precio": 30, "tipo": "Normal", "categoria": "Premium", "src": "https://electrojaponesa.vteximg.com.br/arquivos/ids/176177-550-550/K44--1-.jpg?v=637098555369900000" },
+        { "id": "bicicleta 6", "precio": 10, "tipo": "Antigua", "categoria": "Basic", "src": "https://electrojaponesa.vteximg.com.br/arquivos/ids/176177-550-550/K44--1-.jpg?v=637098555369900000" }
+    ]
+}

@@ -1,0 +1,19 @@
+<ion-list>
+    <ion-item *ngFor="let item of items">
+        <ion-thumbnail slot="start">
+            <ion-img [src]="item.src"></ion-img>
+        </ion-thumbnail>
+        <ion-label>
+            <h2>{{item.cliente}}</h2>
+            <h2>{{item.id}}</h2>
+            <h3>{{item.tipo}}</h3>
+            <h3>{{item.fecha}}</h3>
+            <p>$ {{item.precio}}</p>
+
+        </ion-label>
+        <ion-chip outline color="secondary" slot="end">
+            <ion-label>{{item.categoria}}</ion-label>
+        </ion-chip>
+
+    </ion-item>
+</ion-list>

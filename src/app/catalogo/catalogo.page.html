@@ -1,0 +1,34 @@
+<ion-item>
+    <ion-label>Tipo</ion-label>
+    <ion-select placeholder="Seleccione" (ionChange)="onChange()" [(ngModel)]="filtro.tipo">
+        <ion-select-option value="Todas">Todas</ion-select-option>
+        <ion-select-option value="Eléctrica">Bicicletas eléctricas</ion-select-option>
+        <ion-select-option value="Normal">Bicicletas normales</ion-select-option>
+        <ion-select-option value="Antigua">Bicicletas antiguas</ion-select-option>
+    </ion-select>
+</ion-item>
+<ion-item>
+    <ion-label>Categoría </ion-label>
+    <ion-select placeholder="Seleccione" (ionChange)="onChange()" [(ngModel)]="filtro.categoria">
+        <ion-select-option value="Todas">Todas</ion-select-option>
+        <ion-select-option value="Premium">Premium </ion-select-option>
+        <ion-select-option value="Basic">Basic</ion-select-option>
+    </ion-select>
+</ion-item>
+<ion-list>
+    <ion-item *ngFor="let item of items">
+        <ion-thumbnail slot="start">
+            <ion-img [src]="item.src"></ion-img>
+        </ion-thumbnail>
+        <ion-label>
+            <h2>{{item.id}}</h2>
+            <h3>{{item.tipo}}</h3>
+            <p>$ {{item.precio}}</p>
+
+        </ion-label>
+        <ion-chip outline color="secondary" slot="end">
+            <ion-label>{{item.categoria}}</ion-label>
+        </ion-chip>
+
+    </ion-item>
+</ion-list>
